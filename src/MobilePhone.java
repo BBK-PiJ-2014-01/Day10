@@ -23,7 +23,7 @@ public class MobilePhone extends OldPhone  {
         System.out.println("Alarm: " + alarm);
     }
 
-    private void playGame(String game) {
+    public void playGame(String game) {
         System.out.println("Game launched: " + game);
     }
 
