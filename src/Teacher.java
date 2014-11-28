@@ -1,5 +1,6 @@
+// Teacher. java
 /**
- * Created by Pierre on 28/11/2014.
+ * Created by Pierre on 27/11/2014.
  */
 public class Teacher {
 
