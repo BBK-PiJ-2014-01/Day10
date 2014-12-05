@@ -22,4 +22,13 @@ public class SmartPhone extends MobilePhone {
     public String findPosition() {
         return("GPS Position: 111-222-333");
     }
+
+    /* Exercise 4.1: Added code if playGame was set as 'private' in MobilePhone Class
+
+    public void playGame(String game) {
+        System.out.println("Game launched: " + game);
+    }
+
+    */
+
 }

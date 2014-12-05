@@ -1,7 +1,8 @@
 /**
  * Created by Pierre on 28/11/2014.
  */
-public class EvenString extends String {
+
+/* public class EvenString extends String {
 
    public boolean printEven() {
        if (this == null) {
@@ -12,4 +13,4 @@ public class EvenString extends String {
            return(true);
        }
    }
-}
+} */
