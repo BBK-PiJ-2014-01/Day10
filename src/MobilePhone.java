@@ -14,9 +14,7 @@ public class MobilePhone extends OldPhone  {
     @Override
     public void call(String number) {
         super.call(number);
-        for (int i=8; i>=0 ; i--)
-            lastNumbers[i+1] = lastNumbers[i];
-        lastNumbers[0] = number;
+        recordNumbers(number);
     }
 
     public void ringAlarm(String alarm) {
@@ -25,6 +23,12 @@ public class MobilePhone extends OldPhone  {
 
     public void playGame(String game) {
         System.out.println("Game launched: " + game);
+    }
+
+    public void recordNumbers(String number) {
+        for (int i=8; i>=0 ; i--)
+            lastNumbers[i+1] = lastNumbers[i];
+        lastNumbers[0] = number;
     }
 
     public void printLastNumbers() {

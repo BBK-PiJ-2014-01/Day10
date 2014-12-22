@@ -9,9 +9,10 @@ public class SmartPhone extends MobilePhone {
 
     @Override
     public void call(String number) {
-        if (number.substring(0,2).equals("00"))
-            System.out.println("Calling " + number +" through the internet to save money");
-        else
+        if (number.substring(0, 2).equals("00")) {
+            System.out.println("Calling " + number + " through the internet to save money");
+            recordNumbers(number);
+        } else
             super.call(number);
     }
 
