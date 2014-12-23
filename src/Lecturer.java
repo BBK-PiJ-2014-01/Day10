@@ -1,6 +1,7 @@
 // Lecturer.java
 /**
  * A lecturer has both teaching and research responsibilities
+ * Code complete
  */
 public class Lecturer extends Teacher {
 

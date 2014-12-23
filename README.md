@@ -20,3 +20,11 @@ Exercise 4:
 
 Exercise 5:
   -
+
+Exercise 6:
+  - Classes Teacher, Lecturer & LectureLauncher implemented.
+  The constructor was missing in Class Lecturer.
+
+Exercise 7:
+  - Class EvenString implemented extending String Class.
+  It does not compile as the String Class is Final and therefore cannot be extended.
