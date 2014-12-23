@@ -1,5 +1,6 @@
 /**
  * Created by Pierre on 27/11/2014.
+ * Code complete
  */
 public class MobilePhone extends OldPhone  {
 
@@ -21,7 +22,7 @@ public class MobilePhone extends OldPhone  {
         System.out.println("Alarm: " + alarm);
     }
 
-    public void playGame(String game) {
+    private void playGame(String game) {
         System.out.println("Game launched: " + game);
     }
 
